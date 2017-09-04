@@ -7,12 +7,13 @@ using SerializeDeserialize.Objects;
 namespace Serialize_Deserialize
 {
     [TestClass]
-    public class Playground
+    public class Basics
     {
+
         private const string PRODUCTASJSON = "{\"Id\":101,\"Name\":\"Red Apple\",\"Price\":1.99}";
         private readonly Product product;
 
-        public Playground()
+        public Basics()
         {
             product = new Product
             {
